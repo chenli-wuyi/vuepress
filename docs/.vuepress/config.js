@@ -22,6 +22,7 @@ module.exports = {
           { text: '琐碎', link: '/pages/folder2/test4.md' }
         ]
       },
+      { text: 'VUE专区', link: '/pages/vue/install.md' },
       { text: '功能演示', link: '/pages/folder1/test3.md' },
       { text: 'Github', link: 'https://github.com/chenli-wuyi' }
     ],
@@ -40,6 +41,13 @@ module.exports = {
           title: '测试菜单2',
           collapsable: false, // 可选的, 默认值是 true,
           children: [['test2.md', '子菜单1']]
+        }
+      ],
+      '/pages/vue/': [
+        {
+          title: 'vue专区',
+          collapsable: false, // 可选的, 默认值是 true,
+          children: [['install.md', 'vue的安装']]
         }
       ]
     }
